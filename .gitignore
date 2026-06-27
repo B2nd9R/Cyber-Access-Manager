@@ -1,0 +1,23 @@
+# ☕ Java التلقائية ومجلدات تجميع الكود
+*.class
+└── out/
+└── bin/
+└── build/
+└── target/
+
+# 💻 IntelliJ IDEA وملفات بيئة العمل
+└── .idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# 🖥️ ملفات أنظمة التشغيل (ويندوز وماك)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📦 ملفات مضغوطة أو مؤقتة (اختياري)
+*.log
+*.zip
+*.tar.gz
