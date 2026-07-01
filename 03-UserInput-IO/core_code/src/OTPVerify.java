@@ -12,11 +12,11 @@ public class OTPVerify {
         System.out.print("ادخل رمز التحقق: ");
         String otpCode = readln();
 
-        boolean isOtpVaild = otpCode.equals("1234");
+        boolean isOtpValid = otpCode.equals("1234");
 
         System.out.println("---فحص تسجيل الدخول---");
         System.out.println("المسؤول الحالي: " + adminName);
         System.out.println("رمز التحقق اللي تم ادخاله: " + otpCode);
-        System.out.println("حالة التحقق الثنائي: " + isOtpVaild);
+        System.out.println("حالة التحقق الثنائي: " + isOtpValid);
     }
 }
